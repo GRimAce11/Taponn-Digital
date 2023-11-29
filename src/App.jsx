@@ -1,17 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Navbar from './assets/Global/Navbar'
+import React from 'react'
+import Hero from './assets/Pages/Hero/Hero'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      <Navbar />
-    
-    </>
+    <Hero />
   )
 }
 
