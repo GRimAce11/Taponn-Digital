@@ -1,9 +1,13 @@
 import React from 'react'
-import Hero from './assets/Pages/Hero/Hero'
+import Navbar from './assets/Global/Navbar'
+import Homepage from './assets/Global/Homepage'
 
 const App = () => {
   return (
-    <Hero />
+    <>
+      <Navbar />
+      <Homepage />
+    </>
   )
 }
 

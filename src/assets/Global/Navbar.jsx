@@ -6,9 +6,9 @@ import Logo from "../../assets/Navbar/sector 9 final.jpg"
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
-  const location = useLocation();
-  const path = location.pathname;
-  const navigate = useNavigate();
+  // const location = useLocation();
+  // const path = location.pathname;
+  // const navigate = useNavigate();
 
   const Navtitle = [
     { id: "Home", name: "Home", offset: 0 },
@@ -31,22 +31,17 @@ const Navbar = () => {
         <div
           className="navbg w-full h-min bg-[#000000] py-1 ">
           <div className='w-full m-1  z-20 flex justify-between items-center px-10 text-white'>
-            {path === "/" ?
+           
               <Scroll to="Home" smooth={true} offset={0} duration={500}>
                 {/* <h1 className="text-2xl text-red-500 font-bold">S9</h1> */}
                 <img src={Logo} width={80} className='navigationbar cursor-pointer' alt="S9" />
               </Scroll>
-              :
-              <img src={Logo} onClick={() => navigate("/")} width={80} className='navigationbar cursor-pointer' alt="S9" />
-            }
+              
             <ul className=' hidden lg:flex'>
               {Navtitle.map((nav,index) => (
                 <li key={index} className="navtitles pt-4 px-4 pb-2 text-center hover:text-red-700  md:hover:bg-transparent">
-                  {path === "/" ?
+                  
                     <Scroll to={nav.id} smooth={true} offset={nav.offset} duration={500} className='Navfont cursor-pointer text-lg'>{nav.name}</Scroll>
-                    :
-                    <Scroll to={nav.id} onClick={() => navigate("/")} smooth={true} offset={nav.offset} duration={500} className='Navfont cursor-pointer text-lg'>{nav.name}</Scroll>
-                  }
                 </li>
               ))}
             </ul>
@@ -70,11 +65,9 @@ const Navbar = () => {
               <ul >
                 {Navtitle.map((nav,index) => (
                   <li key={index} onClick={handleNav} className="text-xl text-white py-6 px-6 text-center  hover:text-red-700  hover:rounded-xl border-blue-800 ">
-                    {path === "/" ?
+                    
                     <Scroll to={nav.id} smooth={true} offset={nav.offset} duration={500} onClick={handleNav} className='Navfont cursor-pointer'>{nav.name}</Scroll>
-                    :
-                    <Scroll to={nav.id} onClick={() => navigate("/")} smooth={true} offset={nav.offset} duration={500} className='Navfont cursor-pointer text-lg'>{nav.name}</Scroll>
-                }
+                   
                   </li>
                 ))}
   
