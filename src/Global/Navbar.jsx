@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Link as Scroll } from 'react-scroll';
-import Close from "../../assets/Navbar/Close1.png";
-import Open from "../../assets/Navbar/Open1.png";
-import Logo from "../../assets/Navbar/sector 9 final.jpg"
+import Close from "../assets/Navbar/Close1.png";
+import Open from "../assets/Navbar/Open1.png";
+import Logo from "../assets/Navbar/sector 9 final.jpg"
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
