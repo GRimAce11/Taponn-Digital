@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from './assets/Global/Navbar'
-import Homepage from './assets/Global/Homepage'
+import Navbar from './Global/Navbar'
+import Homepage from './Global/Homepage'
 
 const App = () => {
   return (
