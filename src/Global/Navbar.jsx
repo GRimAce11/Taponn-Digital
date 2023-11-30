@@ -12,8 +12,8 @@ const Navbar = () => {
 
   const Navtitle = [
     { id: "Home", name: "Home", offset: 0 },
+    { id: "Booking", name: "Booking", offset: -48 },
     { id: "About", name: "About", offset: -150 },
-    { id: "Product", name: "Product", offset: -48 },
     { id: "Pricing", name: "Pricing", offset: -100 },
     { id: "ContactUs", name: "Contact", offset: -47 }
   ];
