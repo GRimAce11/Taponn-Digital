@@ -2,8 +2,8 @@ import React from 'react'
 
 const Pricing = () => {
     return (
-        <div className="h-screen w-full flex justify-center items-center">
-            <div className>
+        <div className="h-screen  bg-black w-full flex justify-center items-center">
+            <div>
                 <div className="text-center font-semibold">
                     <h1 className="text-5xl">
                         <span className="text-blue-700 tracking-wide">Flexible </span>
