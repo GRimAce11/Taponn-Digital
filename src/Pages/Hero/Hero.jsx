@@ -1,23 +1,33 @@
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import Swiperimg1 from "../../assets/Hero/Swiper_img1.webp";
+import Swiperimg2 from "../../assets/Hero/Swiper_img2.webp";
 import "swiper/css";
+import { Autoplay, Pagination } from 'swiper/modules';
 
 const Hero = () => {
     return (
-        <div className="h-screen w-screen bg-black">
-        <Swiper className="mySwiper">
-            <SwiperSlide>Slide 1</SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
-            <SwiperSlide>Slide 5</SwiperSlide>
-            <SwiperSlide>Slide 6</SwiperSlide>
-            <SwiperSlide>Slide 7</SwiperSlide>
-            <SwiperSlide>Slide 8</SwiperSlide>
-            <SwiperSlide>Slide 9</SwiperSlide>
+        <Swiper
+            autoplay={{
+                delay: 1500,
+                disableOnInteraction: false,
+            }}
+            loop={true}
+            pagination={{
+                clickable: true,
+            }}
+            modules={[Autoplay, Pagination]}
+            className="mySwiper h-screen w-full">
+            <SwiperSlide><img src={Swiperimg1} alt="" className="h-full w-full object-fill" /></SwiperSlide>
+            <SwiperSlide><img src={Swiperimg2} alt="" className="h-full w-full object-fill" /></SwiperSlide>
+            <SwiperSlide><img src={Swiperimg1} alt="" className="h-full w-full object-fill" /></SwiperSlide>
+            <SwiperSlide><img src={Swiperimg2} alt="" className="h-full w-full object-fill" /></SwiperSlide>
+            <SwiperSlide><img src={Swiperimg1} alt="" className="h-full w-full object-fill" /></SwiperSlide>
+            <SwiperSlide><img src={Swiperimg2} alt="" className="h-full w-full object-fill" /></SwiperSlide>
+            <SwiperSlide><img src={Swiperimg1} alt="" className="h-full w-full object-fill" /></SwiperSlide>
+            <SwiperSlide><img src={Swiperimg2} alt="" className="h-full w-full object-fill" /></SwiperSlide>
+            <SwiperSlide><img src={Swiperimg1} alt="" className="h-full w-full object-fill" /></SwiperSlide>
         </Swiper>
-        </div>
     )
 }
 

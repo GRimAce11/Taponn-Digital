@@ -12,10 +12,9 @@ const Navbar = () => {
 
   const Navtitle = [
     { id: "Home", name: "Home", offset: 0 },
-    { id: "Entertainment", name: "Entertainment", offset: -150 },
-    { id: "Food", name: "Food", offset: -48 },
-    { id: "About", name: "About", offset: -100 },
-    { id: "Gallery", name: "Gallery", offset: -100 },
+    { id: "About", name: "About", offset: -150 },
+    { id: "Product", name: "Product", offset: -48 },
+    { id: "Pricing", name: "Pricing", offset: -100 },
     { id: "ContactUs", name: "Contact", offset: -47 }
   ];
   const [nav, setNav] = useState(false);
@@ -29,7 +28,7 @@ const Navbar = () => {
       <nav
         className={`w-full transition-all duration-300 ${isSticky ? 'hidden' : 'fixed top-0 z-[999]'}`}>
         <div
-          className="navbg w-full h-min bg-[#000000] py-1 ">
+          className="navbg w-full h-min bg-transparent py-1 ">
           <div className='w-full m-1  z-20 flex justify-between items-center px-10 text-white'>
            
               <Scroll to="Home" smooth={true} offset={0} duration={500}>
@@ -41,7 +40,7 @@ const Navbar = () => {
               {Navtitle.map((nav,index) => (
                 <li key={index} className="navtitles pt-4 px-4 pb-2 text-center hover:text-red-700  md:hover:bg-transparent">
                   
-                    <Scroll to={nav.id} smooth={true} offset={nav.offset} duration={500} className='Navfont cursor-pointer text-lg'>{nav.name}</Scroll>
+                    <Scroll to={nav.id} smooth={true} offset={nav.offset} duration={500} className='Navfont font-primary cursor-pointer text-lg'>{nav.name}</Scroll>
                 </li>
               ))}
             </ul>
@@ -66,7 +65,7 @@ const Navbar = () => {
                 {Navtitle.map((nav,index) => (
                   <li key={index} onClick={handleNav} className="text-xl text-white py-6 px-6 text-center  hover:text-red-700  hover:rounded-xl border-blue-800 ">
                     
-                    <Scroll to={nav.id} smooth={true} offset={nav.offset} duration={500} onClick={handleNav} className='Navfont cursor-pointer'>{nav.name}</Scroll>
+                    <Scroll to={nav.id} smooth={true} offset={nav.offset} duration={500} onClick={handleNav} className='Navfont font-primary cursor-pointer'>{nav.name}</Scroll>
                    
                   </li>
                 ))}
