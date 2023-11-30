@@ -8,7 +8,7 @@ const Homepage = () => {
         <>
             <Hero />
             <About />
-            <Pricing />
+            {/* <Pricing /> */}
             <Contact />
         </>
     )
