@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <section className="relative h-screen w-full pt-16 bg-black">
+        <section className="relative h-auto w-full pt-16 bg-black">
             <div className="container font-primary mx-auto">
                 <div className="flex flex-wrap items-center">
                     <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-78">
@@ -39,7 +39,7 @@ const About = () => {
                                         </p>
                                     </div>
                                 </div>
-                                <div className="relative flex flex-col min-w-0">
+                                <div className="lg:relative flex flex-col">
                                     <div className="px-4 py-5 flex-auto">
                                         <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                                             <i className="fas fa-drafting-compass" />
