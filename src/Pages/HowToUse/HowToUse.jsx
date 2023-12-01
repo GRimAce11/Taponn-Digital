@@ -1,5 +1,5 @@
 import React from 'react'
-import Swiperimg1 from "../../assets/Hero/Swiper_img1.webp";
+import Swiperimg1 from "../../assets/How to use/pexels-ricky-esquivel-1964471.jpg";
 
 const HowToUse = () => {
     return (
