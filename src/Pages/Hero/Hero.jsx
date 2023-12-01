@@ -7,7 +7,7 @@ import { Autoplay, Pagination } from 'swiper/modules';
 
 const Hero = () => {
     return (
-        <Swiper
+        <Swiper id="Home"
             autoplay={{
                 delay: 1500,
                 disableOnInteraction: false,

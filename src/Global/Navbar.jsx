@@ -18,15 +18,24 @@ const Navbar = () => {
     { id: "ContactUs", name: "Contact", offset: -47 }
   ];
   const [nav, setNav] = useState(false);
+  const [Navbar, setNavbar] = useState(false);
   const handleNav = () => {
     setNav(!nav);
   };
-  const [isSticky, setIsSticky] = useState(false);
-
+  const changeBG = () =>{
+    if (window.scrollY > 150){
+      setNavbar(true);
+      console.log("100");
+    }
+    else{
+      setNavbar(false);
+    }
+  }
+  window.addEventListener('scroll', changeBG);
   return (
    
       <nav
-        className={`w-full transition-all duration-300 ${isSticky ? 'hidden' : 'fixed top-0 z-[999]'}`}>
+        className={Navbar ? 'w-full transition-all duration-300 fixed top-0 z-[999] bg-black' : 'w-full transition-all duration-300 fixed top-0 z-[999] '}>
         <div
           className="navbg w-full h-min bg-transparent py-1 ">
           <div className='w-full m-1  z-20 flex justify-between items-center px-10 text-white'>
