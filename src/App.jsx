@@ -4,7 +4,6 @@ import Homepage from './Global/Homepage'
 import Contact from './Pages/Contactus/Contact'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './Global/Footer'
-import Features from './Pages/Feature/Features';
 
 const App = () => {
   return (
