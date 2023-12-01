@@ -12,10 +12,10 @@ const Navbar = () => {
 
   const Navtitle = [
     { id: "Home", name: "Home", offset: 0 },
-    { id: "Booking", name: "Booking", offset: -48 },
-    { id: "About", name: "About", offset: -150 },
+    { id: "About", name: "About", offset: -30 },
+    { id: "Booking", name: "Booking", offset: 0 },
     { id: "Pricing", name: "Pricing", offset: -100 },
-    { id: "ContactUs", name: "Contact", offset: -47 }
+    { id: "ContactUs", name: "Contact", offset: 0 }
   ];
   const [nav, setNav] = useState(false);
   const [Navbar, setNavbar] = useState(false);
