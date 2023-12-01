@@ -2,7 +2,7 @@ import React from 'react'
 
 const Pricing = () => {
   return (
-    <div className="pricingdiv flex text-center font-primary flex-col bg-black text-white">
+    <div id='Pricing' className="pricingdiv flex text-center font-primary flex-col bg-black text-white">
       <h2 className='text-4xl mb-3'>Check Out Our Pricing</h2>
       <div className="flex justify-center font-primary bg-black">
         <div className=" flex md:flex-row flex-col px-4 py-2 gap-y-7 gap-x-7 max-w-7xl ">
