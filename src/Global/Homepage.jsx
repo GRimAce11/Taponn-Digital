@@ -9,9 +9,7 @@ const Homepage = () => {
         <>
             <Hero />
             <About />
-            {/* <Pricing /> */}
-            <Contact />
-            <Footer />
+            
         </>
     )
 }
