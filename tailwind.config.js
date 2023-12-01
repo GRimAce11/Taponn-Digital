@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        'primary':['Nova Square', 'sans-serif']
+        'primary':['Chakra Petch', 'sans-serif'],
       }
     },
   },
