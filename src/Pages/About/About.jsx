@@ -1,4 +1,5 @@
 import React from 'react'
+import video from "../../assets/pexels-ivan-samkov-7669654 (1080p).mp4"
 
 const About = () => {
     return (
@@ -7,7 +8,10 @@ const About = () => {
                 <div className="flex flex-wrap items-center">
                     <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-78">
                         <div className="relative flex flex-col min-w-0 break-words  w-full mb-6 shadow-lg rounded-lg bg-white">
-                            <img alt="..." src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" className="w-full align-middle rounded-t-lg" />
+                            <video autoPlay muted loop className="w-full align-middle rounded-t-lg" >
+                                <source src={video} type="video/mp4" />
+                            </video>
+
                             <blockquote className="relative p-8 mb-4">
                                 <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" className="absolute left-0 w-full block h-[95px] -top-[94px]">
                                     <polygon points="-30,95 583,95 583,65" class="text-white fill-current"></polygon>

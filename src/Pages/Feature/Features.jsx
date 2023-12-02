@@ -13,21 +13,21 @@ const Features = () => {
                             <div className="flex-col space-y-2 items-center px-0 md:px-6">
                                 <div className="h-1.5 w-10 rounded-2xl bg-white bg-gradient-to-r from-sky-300 via-rose-200 to-lime-300" />
                                 <div className="text-5xl font-bold">69%</div>
-                                <div className="text-sm font-medium text-gray-200">Tailblocks has more than 15k+ visitors per month.</div>
+                                <div className="text-sm font-medium text-gray-200">Tapon has more than 15k+ visitors per month.</div>
                             </div>
                         </div>
                         <div className="h-40 w-[70%] md:w-1/4 flex items-center justify-center">
                             <div className="flex-col space-y-2">
                                 <div className="h-1.5 w-10 rounded-2xl bg-white bg-gradient-to-r from-sky-300 via-rose-200 to-lime-300" />
                                 <div className="text-5xl font-bold">42%</div>
-                                <div className="text-sm font-medium text-gray-200">Tailblocks has more than 1.2M+ total users.</div>
+                                <div className="text-sm font-medium text-gray-200">Tapon has more than 1.2M+ total users.</div>
                             </div>
                         </div>
                         <div className="h-40 w-[70%] md:w-1/4 flex items-center justify-center">
                             <div className="flex-col space-y-2">
                                 <div className="h-1.5 w-10 rounded-2xl bg-white bg-gradient-to-r from-sky-300 via-rose-200 to-lime-300" />
                                 <div className="text-5xl font-bold">71%</div>
-                                <div className="text-sm font-medium text-gray-200">Tailblocks has gained 69k+ users last month.</div>
+                                <div className="text-sm font-medium text-gray-200">Tapon has gained 69k+ users last month.</div>
                             </div>
                         </div>
                     </div>

@@ -6,11 +6,11 @@ const Pricing = () => {
       <h2 className='text-4xl mb-3'>Check Out Our Pricing</h2>
       <div className="flex justify-center font-primary bg-black">
         <div className=" flex md:flex-row flex-col px-4 py-2 gap-y-7 gap-x-7 max-w-7xl ">
-        <div className="bg-gradient-to-b from-orange-500 to-yellow-500 border border-gray-200 rounded-xl drop-shadow-md shadow-current p-5 h-auto w-[300px] hover:shadow-lg hover:transform hover:scale-105 duration-500 ease-in-out ">
+        <div className="bg-gradient-to-tl from-black to-white border border-yellow-200 rounded-xl drop-shadow-md shadow-current p-5 h-auto w-[300px] hover:shadow-lg hover:transform hover:scale-105 duration-500 ease-in-out ">
             <div className="flex flex-col justify-center items-center text-white p-2 ">
-              <div className="text-3xl ">Shaker</div>
+              <div className="text-3xl ">Shankar</div>
               <div className="flex justify-center my-3 font-medium md:tracking-tighter ">
-                <div className="text-2xl md:text-3xl mt-[3px] md:mt-[1px]">£</div>
+                <div className="text-2xl md:text-3xl mt-[3px] md:mt-[1px]">₹</div>
                 <div className="text-3xl md:text-5xl">9.99</div>
                 <div className="text-lg md:text-xl mt-[9px] md:mt-[20px]">/mo</div>
               </div>
@@ -25,11 +25,11 @@ const Pricing = () => {
               </div>
             </div>
           </div>
-          <div className="bg-gradient-to-b from-orange-500 to-yellow-500 border border-gray-200 rounded-xl drop-shadow-md shadow-current p-5 h-auto w-[300px] hover:shadow-lg hover:transform hover:scale-105 duration-500 ease-in-out ">
+          <div className="bg-gradient-to-b from-black to-white border border-red-400 rounded-xl drop-shadow-md shadow-current p-5 h-auto w-[300px] hover:shadow-lg hover:transform hover:scale-105 duration-500 ease-in-out ">
             <div className="flex flex-col justify-center items-center text-white p-2 ">
-              <div className="text-3xl ">Shaker</div>
+              <div className="text-3xl ">Prabhakar</div>
               <div className="flex justify-center my-3 font-medium md:tracking-tighter ">
-                <div className="text-2xl md:text-3xl mt-[3px] md:mt-[1px]">£</div>
+                <div className="text-2xl md:text-3xl mt-[3px] md:mt-[1px]">₹</div>
                 <div className="text-3xl md:text-5xl">9.99</div>
                 <div className="text-lg md:text-xl mt-[9px] md:mt-[20px]">/mo</div>
               </div>
@@ -44,11 +44,11 @@ const Pricing = () => {
               </div>
             </div>
           </div>
-          <div className="bg-gradient-to-br from-blue-700 via-blue-800 to-gray-900 border border-gray-200 rounded-xl drop-shadow-md shadow-current p-5 h-auto w-[300px] hover:shadow-lg hover:transform hover:scale-105 duration-500 ease-in-out ">
+          <div className="bg-gradient-to-tr from-black to-white border border-green-300 rounded-xl drop-shadow-md shadow-current p-5 h-auto w-[300px] hover:shadow-lg hover:transform hover:scale-105 duration-500 ease-in-out ">
             <div className="flex flex-col justify-center items-center text-white p-2 ">
-              <div className="text-3xl ">Earthquaker</div>
+              <div className="text-3xl ">Damodar</div>
               <div className="flex justify-center my-3 font-medium md:tracking-tighter ">
-                <div className="text-2xl md:text-3xl mt-[3px] md:mt-[1px]">£</div>
+                <div className="text-2xl md:text-3xl mt-[3px] md:mt-[1px]">₹</div>
                 <div className="text-3xl md:text-5xl">9.99</div>
                 <div className="text-lg md:text-xl mt-[9px] md:mt-[20px]">/mo</div>
               </div>
